@@ -1,8 +1,8 @@
 #include <M5Atom.h>
 #include <Adafruit_NeoPixel.h>
-#define PIN        25  // LEDへの信号端子の番号
-#define NUMPIXELS  336  // Infiniflow mirrorに使用しているLEDの数
-int brightness = 30; // LEDの明るさ (0-255の間で設定) 明るくして同時に光るLEDが多いと合計の電流が数アンペアになります、電源の電流容量に注意してください
+#define PIN        26  // LEDへの信号端子の番号
+#define NUMPIXELS  180  // Infiniflow mirrorに使用しているLEDの数
+int brightness = 60; // LEDの明るさ (0-255の間で設定) 明るくして同時に光るLEDが多いと合計の電流が数アンペアになります、電源の電流容量に注意してください
 
 
 //変数などの設定---------------------------------------------
